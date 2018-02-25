@@ -25,6 +25,8 @@ class Sorter {
 
   sort(indices) {
     // your implementation
+    sorter.sort([0, 1]);
+   console.log(sorter.toArray())
   }
 
   setComparator(compareFunction) {
