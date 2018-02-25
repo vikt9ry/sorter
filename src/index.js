@@ -1,10 +1,14 @@
 class Sorter {
   constructor() {
     // your implementation
+      this.arr = [];
+    this.length=0;
   }
 
   add(element) {
     // your implementation
+    this.length++;
+    this.arr.splice(this.arr.length,0,element);
   }
 
   at(index) {
